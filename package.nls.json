@@ -1,0 +1,5 @@
+{
+    "dingtalk.webhookSend.title": "Send",
+    "dingtalk.webhookSendTo.title": "Send to ...",
+    "dingtalk.webhook.desc": "Webhook configuations"
+}
