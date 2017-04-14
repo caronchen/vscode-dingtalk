@@ -15,7 +15,7 @@ export function activate(context: vscode.ExtensionContext) {
 
     function webhookSend(useDefaultHook) {
         let cfg   = vscode.workspace.getConfiguration('dingtalk');
-        let hooks = <Array<Object>>cfg.get('webhooks');
+        let hooks = <Array<Object>>cfg.get('webhook');
 
         if (hooks === undefined || hooks === null || hooks.length === 0) {
             vscode.window.showWarningMessage("Pls config hook address first.");
